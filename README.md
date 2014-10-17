@@ -2,7 +2,7 @@
 
 A tweet-sized PHP Event emitter in only 103 bytes.
 
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/lastguest/mu/badges/quality-score.png?s=e29b47be8993b94957e9e6e9f37edd6184f6c753)](https://scrutinizer-ci.com/g/lastguest/mu/)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/lastguest/ev/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/lastguest/ev/?branch=master)
 
 ```php
 function ∑($n,$c=0){static$r;is_callable($c)?$r[$n][]=$c:@array_walk($r[$n],'call_user_func',$c?:[]);}
@@ -67,7 +67,7 @@ Called debug.event[0] with parameters : Array
 
 ```php
 function ∑ ($event_name, $callback=null){
-    // The events handlers repository.
+    // The event handlers repository.
     static $event_handlers;
  
    if (is_callable($callback)) {
