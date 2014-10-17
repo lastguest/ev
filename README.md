@@ -38,21 +38,21 @@ Calling an event with no parameters triggers all binded event handlers.
 ∑("init");
 ```
 
-Outuput:
+Output:
 
 ```html
 Init event triggered!
 Second handler for init triggered!
 ```
 
-You can pass parameters to all handlers as an array. 
+You can pass parameters to all handlers as an array :
 
 ```php
 // Trigger `debug.event` passing parameters
 ∑('debug.event',[1,2,'Hello, Friend.']);
 ```
 
-Outuput:
+Output:
 
 ```html
 Called debug.event[0] with parameters : Array
