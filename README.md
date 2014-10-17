@@ -2,7 +2,7 @@
 
 A tweet-sized PHP Event emitter in only 103 bytes.
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/lastguest/ev/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/lastguest/ev/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/lastguest/ev/badges/build.png?b=master)](https://scrutinizer-ci.com/g/lastguest/ev/build-status/master) [![Latest Stable Version](https://poser.pugx.org/lastguest/ev/v/stable.svg)](https://packagist.org/packages/lastguest/ev) [![Total Downloads](https://poser.pugx.org/lastguest/ev/downloads.svg)](https://packagist.org/packages/lastguest/ev) [![Latest Unstable Version](https://poser.pugx.org/lastguest/ev/v/unstable.svg)](https://packagist.org/packages/lastguest/ev) [![License](https://poser.pugx.org/lastguest/ev/license.svg)](https://packagist.org/packages/lastguest/ev)
 
 ```php
 function ∑($n,$c=0){static$r;is_callable($c)?$r[$n][]=$c:@array_walk($r[$n],'call_user_func',$c?:[]);}
