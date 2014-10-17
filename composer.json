@@ -1,12 +1,25 @@
 {
-	"name": "lastguest/mu",
-	"type": "library",
-	"description": "An URL router in only 140bytes",
-	"keywords": ["sinatra", "mu", "url-router", "router", "slim"],
-	"authors": [
-		{
-			"name": "Stefano Azzolini",
-			"email": "lastguest@gmail.com"
-		}
-	]
+    "name": "lastguest/ev",
+    "type": "library",
+    "description": "A PHP Event emitter in only 103bytes",
+    "keywords": ["event", "emitter", "ev", "micro"],
+    "homepage": "https://github.com/lastguest/ev",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefano Azzolini",
+            "email": "lastguest@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [ "ev.php" ]
+    }
 }
