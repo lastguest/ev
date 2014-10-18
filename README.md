@@ -70,7 +70,7 @@ function ∑ ($event_name, $callback=null){
     // The event handlers repository.
     static $event_handlers;
  
-   if (is_callable($callback)) {
+    if (is_callable($callback)) {
 
         // We are binding a callback to an event, add $callback to the
         // events handler repository.
