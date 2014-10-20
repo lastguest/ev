@@ -8,6 +8,11 @@ A tweet-sized PHP Event emitter in only 103 bytes.
 function ∑($n,$c=0){static$r;is_callable($c)?$r[$n][]=$c:@array_walk($r[$n],'call_user_func',$c?:[]);}
 ```
 
+**Warning: This is a pure proof of concept of a tweet sized event emitter**
+
+**DO NOT USE IT IN PRODUCTION!**
+
+
 ### How to use
 
 **Bind handlers to event:** 
